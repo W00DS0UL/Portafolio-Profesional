@@ -95,6 +95,10 @@ textarea:focus{
     color: #9c75d5;
 }
 
+.text-naranja{
+    color: #ff8c00;
+}
+
 .w-fit{
     width: fit-content;
 }
