@@ -1,0 +1,75 @@
+{
+    "navbar":{
+        "home":"Inicio",
+        "profile":"Perfil",
+        "skills":"Conocimientos",
+        "projects":"Proyectos",
+        "contact":"Contacto"
+    },
+
+    "home":{
+        "card-title":"Desarrollador Full Stack",
+        "card-button":"Descargar CV",
+        "about-title":"¡Hola mundo!",
+        "about-sub-title-01":"Soy Franklin",
+        "about-sub-title-02":"Desarrollador Full Stack",
+        "about-description":"Ayudo a que las empresas crezcan mediante la creación de increíbles soluciones de software. Si buscas un desarrollador orientado a generar soluciones de calidad",
+        "about-button":"Contáctame"
+    },
+
+    "profile":{
+        "profile-title":"Sobre mí",
+        "profile-description-01":"Mi nombre es Franklin Castro, soy desarrollador de software, apasionado por el arte de hacer código.",
+        "profile-description-02":"Me especializo en tecnologías como: HTML, CSS, Javascript y Bootstrap. Estas habilidades me permiten crear interfaces de usuario visualmente atractivas y responsivas que mejoran la experiencia general del usuario.",
+        "profile-description-03":"Estoy orientado a generar soluciones a través de la comunicación, la innovación y la invención tecnológica. Comprometido con el desarrollo humano a través del progreso tecnológico ético."
+    },
+
+    "skills":{
+        "skills-title":"CONOCIMIENTOS",
+        "skills-sub-title":"Soy un apasionado por el conocimiento y aprendizaje continuo",
+        "skills-stack-01":"Front-end",
+        "skills-stack-02":"Back-end",
+        "skills-stack-03":"Bases de datos",
+        "skills-stack-04":"Otros"
+    },    
+    
+    "projects":{
+        "projects-title":"PROYECTOS",
+        "projects-sub-title":"Estos son algunos de los proyectos en los que he trabajado",
+
+        "project-01-title":"Cenfotec Kingdoms",
+        "project-01-sub-title-01":"- 2023 -",
+        "project-01-sub-title-02":"- Videojuego de estrategia -",
+        "project-01-sub-title-03":"- Tecnologías -",
+        "project-01-description":"Videojuego desarrollado utilizando Java como parte del Curso de Patrones de Programación de la Universidad Cenfotec.",
+
+        "project-02-title":"MobyDyg",
+        "project-02-sub-title-01":"- 2022 -",
+        "project-02-sub-title-02":"- Comercio Electrónico -",
+        "project-02-sub-title-03":"- Tecnologías -",
+        "project-02-description":"Plataforma de comercio diseñada con tecnologías de vanguardia, incluidas MySQL, AWS, Angular, TypeScript y NodeJS.",
+
+        "project-03-title":"3Pillar Global Costa Rica",
+        "project-03-sub-title-01":"- 2021 -",
+        "project-03-sub-title-02":"- Plataforma de Torneos -",
+        "project-03-sub-title-03":"- Tecnologías -",
+        "project-03-description":"Plataforma web de la Federación Costarricense de Taekwondo para la gestión de torneos, construida con tecnologías como: React, Javascript, C#, ASP.NET MVC y Microsoft SQL Server."
+    },
+
+    "contact":{
+        "contact-title":"CONTACTO",
+        "contact-sub-title":"Siempre estoy abierto a nuevas oportunidades",
+        "linkedin":"Descubre más sobre mí en LinkedIn",
+        "github":"Encuentra mis proyectos en GitHub",
+        "whatsapp":"Hablemos sobre tu proyecto por WhatsApp",
+        "form-title":"También puedes contactarme por correo:",
+        "form-name":"Ingresa tu nombre",
+        "form-email":"Ingresa tu correo",
+        "form-message":"Cuéntame sobre tu proyecto",
+        "form-button":"Enviar"
+    },
+
+    "footer":{
+        "footer-title":"Desarrollado por Franklin Castro - Desarrollador Full Stack"
+    }
+}
