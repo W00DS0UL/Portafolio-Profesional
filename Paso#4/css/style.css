@@ -1,0 +1,220 @@
+:root{
+    --color-primary: #10242E;
+    --color-secondary: #0c4045;
+    --color-tertiary: #17c7ad;
+    --color-quaternary: #e9e9e9;
+}
+
+input:focus,
+textarea:focus{
+    background-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.bg-primario-logo{
+    background-image: url(../img/logo_dark.png);
+    background-color: var(--color-primary);
+    background-position:bottom right;
+    background-repeat: no-repeat;
+    background-size: 35%;
+}
+
+.bg-primario{
+    background-color: var(--color-primary);
+}
+
+.bg-secundario{
+    background-color: var(--color-secondary);
+}
+
+.bg-terciario{
+    background-color: var(--color-tertiary);
+}
+
+.bg-cuaternario{
+    background-color: var(--color-quaternary);
+}
+
+.bg-art-01{
+    background-image: url(../img/art-01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-art-02{
+    background-image: url(../img/art-02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-art-03{
+    background-image: url(../img/art-03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-cristal{
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.3px);
+    -webkit-backdrop-filter: blur(8.3px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+}
+
+.bg-cristal-dark, .lightbox{
+    background: rgba(16, 36, 46, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.1px);
+    -webkit-backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(16, 36, 46, 0.19);
+}
+
+.text-primario{
+    color: var(--color-primary);
+}
+
+.text-secundario{
+    color: var(--color-secondary);
+}
+
+.text-terciario{
+    color: var(--color-tertiary);
+}
+
+.text-cuaterniario{
+    color: var(--color-quaternary);
+}
+
+.text-morado{
+    color: #9c75d5;
+}
+
+.text-naranja{
+    color: #ff8c00;
+}
+
+.w-fit{
+    width: fit-content;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.card-height{
+    height: 680px;
+}
+
+.vh-custom{
+    height: 100vh;
+
+}
+
+.logo-card{
+    width: 100%;
+    max-width: 100px;
+}
+
+.card-cut{
+    border-top-left-radius: 160px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 160px;
+}
+
+.mini-card-cut{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 50px;
+}
+
+.contact-form .form-floating > .form-control-plaintext ~ label::after,
+.form-floating > .form-control:focus ~ label::after,
+.form-floating > .form-control:not(:placeholder-shown) ~ label::after,
+.form-floating > .form-select ~ label::after {
+    background-color: transparent;
+}
+
+.border-color-terciario{
+    border-color: var(--color-tertiary) !important;
+}
+
+.fs-icons{
+    font-size: 3.75rem;
+}
+
+.fs-icons-v2{
+    font-size: 4.5rem;
+}
+
+.top-64{
+    top: 64%;
+}
+
+.end-4{
+    right: 4%;
+}
+
+.ratio-16x9{
+    background-color: transparent !important;
+}
+
+/**********************/
+/**** NavBar Style ****/
+/**********************/
+
+nav{
+    z-index: 99999;
+    position: fixed !important;
+}
+
+.navbar-toggler,
+.navbar-toggler span{
+    color: white !important;
+}
+
+.form-check-input:checked{
+    background-color: var(--color-tertiary) !important;
+    border-color: var(--color-tertiary) !important;
+}
+
+/**********************/
+/***** RESPONSIVE *****/
+/**********************/
+
+@media (max-width: 1024px) {
+    .card-cut{
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .w-30{
+        width: 100%;
+    }
+
+    .vh-custom{
+        height: auto;
+    }
+
+    .card-height{
+        height: auto;
+    }
+
+    nav{
+        position: static !important;
+        background-color: var(--color-primary) !important;
+        box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+    }
+}

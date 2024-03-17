@@ -1,0 +1,82 @@
+{
+    "navbar":{
+        "home":"Home",
+        "profile":"Profile",
+        "skills":"Skills",
+        "projects":"Projects",
+        "contact":"Contact"
+    },
+
+    "home":{
+        "card-title":"Full-stack software developer",
+        "card-button":"Dowload CV",
+        "about-title":"Hello World!",
+        "about-sub-title-01":"I'm Franklin",
+        "about-sub-title-02":"Full-Stack Software Developer",
+        "about-description":"I help business grow by crafting amazing software solutions. If you're looking for a developer that likes to get stuff done",
+        "about-button":"Let's talk!"
+        
+    },
+
+    "profile":{
+        "profile-title":"About me",
+        "profile-description-01":"My name is Franklin, I'm a software developer, passionate about the art of code.",
+        "profile-description-02":"I am proficient in HTML, CSS, Javascript, and Bootstrap. These skills allow me to create visually appealing and responsive user interfaces that enhance the overall user experience.",
+        "profile-description-03":"I'm oriented towards generating solutions through communication, innovation, and technological invention. Committed to human development through ethical technological progress."
+    },
+
+    "skills":{
+        "skills-title":"SKILLS",
+        "skills-sub-title":"I am striving to never stop learning and improving",
+        "skills-stack-01":"Front-end",
+        "skills-stack-02":"Back-end",
+        "skills-stack-03":"Database",
+        "skills-stack-04":"Others"
+    },    
+    
+    "projects":{
+        "projects-title":"PROJECTS",
+        "projects-sub-title":"I had the pleasure of working on these awesome projects",
+
+        "project-01-title":"Cenfotec Kingdoms",
+        "project-01-sub-title-01":"2023",
+        "project-01-sub-title-02":"Strategy Game Project",
+        "project-01-sub-title-03":"Technologies",
+        "project-01-description":"Video game developed using Java as part of the Programming Patterns Course at Cenfotec University.",
+        "project-01-big-description-01":"The Java-based video game, developed as part of the Programming Patterns Course at Cenfotec University, is a testament to its robust design and implementation. Demonstrating a proficiency in various programming patterns such as Singleton, Factory, Observer, and Strategy, among others, the game showcases a mastery of complex system architecture within Java.",
+        "project-01-big-description-02":"The game serves as a practical example of software development, highlighting the application of object-oriented programming and design patterns in a real-world project. This project's success indicates a solid understanding of software design principles and best practices.",
+
+        "project-02-title":"MobyDyg",
+        "project-02-sub-title-01":"2022",
+        "project-02-sub-title-02":"E-Commerce",
+        "project-02-sub-title-03":"Technologies",
+        "project-02-description":"Commerce platform crafted with cutting-edge technologies, including MySQL, AWS, Angular, TypeScript, and NodeJS.",
+        "project-02-big-description-01":"The E-Commerce platform is a comprehensive online shopping solution that integrates several cutting-edge technologies. It utilizes MySQL for efficient data management, AWS for reliable and scalable cloud infrastructure, and Angular with TypeScript for a responsive and dynamic user interface.",
+        "project-02-big-description-02":"The E-Commerce platform's backend leverages AWS Lambda with NodeJS, enhancing its scalability and reducing operational overhead. AWS API Gateway complements this setup, providing a secure and managed API layer for seamless communication between the frontend and backend components. Together, these technologies ensure efficient and cost-effective handling of backend processes, contributing to the platform's overall performance and reliability.",
+
+        "project-03-title":"3Pillar Global Costa Rica",
+        "project-03-sub-title-01":"2021",
+        "project-03-sub-title-02":"Tournament Platform",
+        "project-03-sub-title-03":"Technologies",
+        "project-03-description":"Web platform of the Costa Rican Taekwondo Federation for tournament management, built with technologies such as: React, Javascript, C#, ASP.NET MVC and Microsoft SQL Server.",
+        "project-03-big-description-01":"The web platform developed for the Costa Rican Taekwondo Federation for tournament management is a comprehensive solution built with a modern technology stack. Utilizing React for the frontend, JavaScript for dynamic behavior, C# for backend functionality with ASP.NET MVC, and Microsoft SQL Server for database management, the platform offers a robust and efficient system for managing tournaments.",
+        "project-03-big-description-02":"This platform streamlines tournament organization processes, providing administrators with tools for scheduling, participant management, and result tracking. Its use of contemporary technologies ensures a responsive and user-friendly experience for all stakeholders involved in taekwondo tournaments."
+    },
+
+    "contact":{
+        "contact-title":"CONTACT",
+        "contact-sub-title":"I'm always open to new opportunities",
+        "linkedin":"Connect with me on LinkedIn",
+        "github":"Find me on GitHub",
+        "whatsapp":"Let's talk about your project",
+        "form-title":"You can also contact me by email:",
+        "form-name":"Enter your name",
+        "form-email":"Enter your email",
+        "form-message":"Enter your message",
+        "form-button":"Send Message"
+    },
+
+    "footer":{
+        "footer-title":"Developed by Franklin Castro - Full Stack Developer"
+    }
+}
