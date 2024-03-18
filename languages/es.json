@@ -4,6 +4,7 @@
         "profile":"Perfil",
         "skills":"Conocimientos",
         "projects":"Proyectos",
+        "works":"Trabajos",
         "contact":"Contacto"
     },
 
@@ -13,7 +14,7 @@
         "about-title":"¡Hola mundo!",
         "about-sub-title-01":"Soy Franklin",
         "about-sub-title-02":"Desarrollador Full Stack",
-        "about-description":"Ayudo a que las empresas crezcan mediante la creación de increíbles soluciones de software. Si buscas un desarrollador orientado a generar soluciones de calidad",
+        "about-description":"Ayudo a que las empresas crezcan mediante la creación de increíbles soluciones de software. Si buscas un desarrollador orientado a generar soluciones de calidad.",
         "about-button":"Contáctame"
     },
 
@@ -62,13 +63,20 @@
         "project-03-big-description-02":"Esta plataforma agiliza los procesos de organización de torneos, brindando a los administradores herramientas para la programación, la gestión de participantes y el seguimiento de resultados. Su uso de tecnologías contemporáneas garantiza una experiencia receptiva y fácil de usar para todas las partes interesadas involucradas en los torneos de taekwondo."
     },
 
+    "works":{
+        "works-title":"TRABAJOS",
+        "works-sub-title":"Si quieres saber más sobre mí, pongámonos en contacto",
+        "works-description-01":"Estas son algunas de mis principales redes sociales, donde podrás encontrar más información sobre mí y mi trabajo.",
+        "works-description-02":"Siempre estoy abierto a nuevas oportunidades y desafíos.",
+        "linkedin":"Descubre más sobre mí en LinkedIn",
+        "github":"Encuentra mis proyectos en GitHub",
+        "whatsapp":"Hablemos sobre tu proyecto por WhatsApp"
+    },
+
     "contact":{
         "contact-title":"CONTACTO",
         "contact-sub-title":"Siempre estoy abierto a nuevas oportunidades",
-        "linkedin":"Descubre más sobre mí en LinkedIn",
-        "github":"Encuentra mis proyectos en GitHub",
-        "whatsapp":"Hablemos sobre tu proyecto por WhatsApp",
-        "form-title":"También puedes contactarme por correo:",
+        "contact-description":"Hablemos de tu proyecto y transformemos tu idea en un negocio real.",
         "form-name":"Ingresa tu nombre",
         "form-email":"Ingresa tu correo",
         "form-message":"Cuéntame sobre tu proyecto",
@@ -76,6 +84,6 @@
     },
 
     "footer":{
-        "footer-title":"Desarrollado por Franklin Castro - Desarrollador Full Stack"
+        "footer-title":"Desarrollador Full Stack - Franklin Castro"
     }
 }

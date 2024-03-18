@@ -17,8 +17,7 @@
     <link href="css/style.css" rel="stylesheet">
 
     <!-- JS -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
       (function(){
           emailjs.init({
@@ -40,16 +39,19 @@
               <a class="nav-link text-white fs-5 fw-light px-4" href="#s1" data-i18n="nav.home" data-section="navbar" data-value="home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fs-5 fw-light px-4" href="#s2" data-i18n="nav.profile" data-section="navbar" data-value="profile">Profile</a>
+              <a class="nav-link text-white fs-5 fw-light px-4" href="#s2" data-section="navbar" data-value="profile">Profile</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fs-5 fw-light px-4" href="#s3" data-i18n="nav.skills" data-section="navbar" data-value="skills">Skills</a>
+              <a class="nav-link text-white fs-5 fw-light px-4" href="#s3" data-section="navbar" data-value="skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fs-5 fw-light px-4" href="#s4" data-i18n="nav.projects" data-section="navbar" data-value="projects">Projects</a>
+              <a class="nav-link text-white fs-5 fw-light px-4" href="#s4" data-section="navbar" data-value="projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fs-5 fw-light px-4" href="#s5" data-i18n="nav.contact" data-section="navbar" data-value="contact">Contact</a>
+              <a class="nav-link text-white fs-5 fw-light px-4" href="#s5" data-section="navbar" data-value="works">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5 fw-light px-4" href="#s6" data-section="navbar" data-value="contact">Contact</a>
             </li>
           </ul>
           <div class="form-check form-switch">
@@ -88,7 +90,7 @@
             <h3 class="text-white fs-2" data-section="home" data-value="about-sub-title-01">I'm Franklin</h3>
             <h3 class="text-white fs-2" data-section="home" data-value="about-sub-title-02">Full-Stack Software Developer</h3>
             <p class="text-white fs-5" data-section="home" data-value="about-description">
-              I help business grow by crafting amazing software solutions. If you're looking for a developer that likes to get stuff done
+              I help business grow by crafting amazing software solutions. If you're looking for a developer that likes to get stuff done.
             </p>
             <a href="#s5" class="text-decoration-none text-terciario hvr-grow">
             <h6 class="fs-3 d-inline" data-section="home" data-value="about-button">Let's Talk!</h6>
@@ -262,34 +264,48 @@
       <section id="s5">
         <div class="row justify-content-center bg-primario align-items-center px-md-5 vh-custom py-md-0 py-5">
           <div class="col-12 text-center px-5 pb-5">
-            <h2 class="fs-1 fw-bold text-terciario" data-aos="fade-up" data-aos-duration="1000" data-section="contact" data-value="contact-title">CONTACT</h2>
-            <p class="fs-5 fw-light text-white" data-aos="fade-up" data-aos-duration="1000" data-section="contact" data-value="contact-sub-title">I'm always open to new opportunities</p>
+            <h2 class="fs-1 fw-bold text-terciario" data-aos="fade-up" data-aos-duration="1000" data-section="works" data-value="works-title">WORKS</h2>
+            <p class="fs-5 fw-light text-white" data-aos="fade-up" data-aos-duration="1000" data-section="works" data-value="works-sub-title">If you want to learn more about me, let's get in touch</p>
 
+            <p class="fs-5 fw-light text-white text-center py-5" data-aos="fade-up" data-aos-duration="1000" data-section="works" data-value="works-description-01">
+              Here are some of my main social networks, where you can find more information about me and my work.
+            </p>
+            
             <div class="row justify-content-center align-items-center py-md-5">
               <div class="col-md-2 col-12 py-md-0 py-3 text-center" data-aos="fade-up" data-aos-duration="1000">
                 <a href="https://www.linkedin.com/in/franklin-castro-rodriguez/" target="_blank" class="text-white text-decoration-none">
                   <i class="fa-brands fa-linkedin fs-icons hvr-grow"></i>  
-                  <h6 class="fs-5 pt-3" data-section="contact" data-value="linkedin">Connect with me on LinkedIn</h6>
+                  <h6 class="fs-5 pt-3" data-section="works" data-value="linkedin">Connect with me on LinkedIn</h6>
                 </a>
               </div>
               <div class="col-md-2 col-12 py-md-0 py-3 text-center" data-aos="fade-up" data-aos-duration="1000">
                 <a href="https://github.com/W00DS0UL" target="_blank" class="text-white text-decoration-none">
                   <i class="fa-brands fa-github fs-icons hvr-grow"></i>  
-                  <h6 class="fs-5 pt-3" data-section="contact" data-value="github">Find me on GitHub</h6>
+                  <h6 class="fs-5 pt-3" data-section="works" data-value="github">Find me on GitHub</h6>
                 </a>  
               </div>
               <div class="col-md-2 col-12 py-md-0 py-3 text-center" data-aos="fade-up" data-aos-duration="1000">
                 <a href="https://api.whatsapp.com/send?phone=50689865406" target="_blank" class="text-white text-decoration-none">
                   <i class="fa-brands fa-whatsapp text-white fs-icons hvr-grow"></i>  
-                  <h6 class="fs-5 pt-3" data-section="contact" data-value="whatsapp">Let's talk about your project</h6>
+                  <h6 class="fs-5 pt-3" data-section="works" data-value="whatsapp">Let's talk about your project</h6>
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
 
+      <section id="s6">
+        <div class="row justify-content-center bg-primario align-items-center px-md-5 vh-custom py-md-0 py-5">
+          <div class="col-12 text-center px-5 pb-5">
             <form id="contactForm" class="contact-form">
               <div class="row justify-content-center px-md-5 pt-5">
-                <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
-                  <p class="fs-5 fw-light text-white" data-aos="fade-up" data-aos-duration="1000" data-section="contact" data-value="form-title">You can also contact me by email:</p>
+                <div class="col-12 text-center">
+                  <h2 class="fs-1 fw-bold text-terciario" data-aos="fade-up" data-aos-duration="1000" data-section="contact" data-value="contact-title">CONTACT</h2>
+                  <p class="fs-5 fw-light text-white" data-aos="fade-up" data-aos-duration="1000" data-section="contact" data-value="contact-sub-title">I'm always open to new opportunities</p>
+                  <p class="fs-5 fw-light text-white text-center py-3" data-aos="fade-up" data-aos-duration="1000" data-section="contact" data-value="contact-description">
+                    Let's talk about your project, and craft your idea into a real business.
+                  </p>
                 </div>
                 <div class="col-md-6 col-12 pt-md-5" data-aos="fade-up" data-aos-duration="1000">
                   <div class="form-floating mb-3">
@@ -321,7 +337,7 @@
 
     <footer class="container-fluid bg-primario text-center py-3 px-5 position-relative">
       <hr class="text-light">
-      <p class="text-white fw-light fs-5 pt-3" data-section="footer" data-value="footer-title">Developed by Franklin Castro - Full-stack Software Developer</p>
+      <p class="text-white fw-light fs-5 pt-3" data-section="footer" data-value="footer-title">Full-stack Software Developer - Franklin Castro</p>
       
       <a href="#s1" class="position-absolute top-64 end-4 translate-middle-y d-md-inline-block d-none">
         <i class="fa-solid fa-chevron-up text-white fs-1 hvr-grow"></i>

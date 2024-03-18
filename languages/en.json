@@ -4,6 +4,7 @@
         "profile":"Profile",
         "skills":"Skills",
         "projects":"Projects",
+        "works":"Works",
         "contact":"Contact"
     },
 
@@ -13,7 +14,7 @@
         "about-title":"Hello World!",
         "about-sub-title-01":"I'm Franklin",
         "about-sub-title-02":"Full-Stack Software Developer",
-        "about-description":"I help business grow by crafting amazing software solutions. If you're looking for a developer that likes to get stuff done",
+        "about-description":"I help business grow by crafting amazing software solutions. If you're looking for a developer that likes to get stuff done.",
         "about-button":"Let's talk!"
         
     },
@@ -63,13 +64,19 @@
         "project-03-big-description-02":"This platform streamlines tournament organization processes, providing administrators with tools for scheduling, participant management, and result tracking. Its use of contemporary technologies ensures a responsive and user-friendly experience for all stakeholders involved in taekwondo tournaments."
     },
 
+    "works":{
+        "works-title":"WORKS",
+        "works-sub-title":"If you want to learn more about me, let's get in touch",
+        "works-description-01":"Here are some of my main social networks, where you can find more information about me and my work.",
+        "linkedin":"Connect with me on LinkedIn",
+        "github":"Find me on GitHub",
+        "whatsapp":"Let's talk about your project"
+    },
+
     "contact":{
         "contact-title":"CONTACT",
         "contact-sub-title":"I'm always open to new opportunities",
-        "linkedin":"Connect with me on LinkedIn",
-        "github":"Find me on GitHub",
-        "whatsapp":"Let's talk about your project",
-        "form-title":"You can also contact me by email:",
+        "contact-description":"Let's talk about your project, and craft your idea into a real business.",
         "form-name":"Enter your name",
         "form-email":"Enter your email",
         "form-message":"Enter your message",
@@ -77,6 +84,6 @@
     },
 
     "footer":{
-        "footer-title":"Developed by Franklin Castro - Full Stack Developer"
+        "footer-title":"Full-stack Software Developer - Franklin Castro"
     }
 }
