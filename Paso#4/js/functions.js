@@ -1,4 +1,3 @@
-
 /**
  * The function `changeLanguage` asynchronously fetches language JSON files based on a switch value and
  * updates text content on the webpage accordingly.
@@ -10,9 +9,17 @@ const changeLanguage = async () => {
     let requestJson;
 
     if (switchValue) {
-        requestJson = await fetch(`./languages/es.json`);
+        requestJson = await fetch(`./languages/es.json`, {
+            headers: {
+                "Access-Control-Allow-Origin": "*"
+            }
+        });
     } else {
-        requestJson = await fetch(`./languages/en.json`);
+        requestJson = await fetch(`./languages/en.json`, {
+            headers: {
+                "Access-Control-Allow-Origin": "*"
+            }
+        });
     }
 
     const texts = await requestJson.json();
