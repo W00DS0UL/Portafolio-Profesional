@@ -66,8 +66,7 @@
 
     "works":{
         "works-title":"WORKS",
-        "works-sub-title":"If you want to learn more about me, let's get in touch",
-        "works-description-01":"Here are some of my main social networks, where you can find more information about me and my work.",
+        "works-sub-title":"If you want to know more about my professional profile, let's get in touch using the following web spaces.",
         "linkedin":"Connect with me on LinkedIn",
         "github":"Find me on GitHub",
         "whatsapp":"Let's talk about your project"
@@ -76,7 +75,7 @@
     "contact":{
         "contact-title":"CONTACT",
         "contact-sub-title":"I'm always open to new opportunities",
-        "contact-description":"Let's talk about your project, and craft your idea into a real business.",
+        "contact-description":"Let's talk about your project and transform ideas into a real business.",
         "form-name":"Enter your name",
         "form-email":"Enter your email",
         "form-message":"Enter your message",

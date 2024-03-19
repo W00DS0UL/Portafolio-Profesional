@@ -65,9 +65,7 @@
 
     "works":{
         "works-title":"TRABAJOS",
-        "works-sub-title":"Si quieres saber más sobre mí, pongámonos en contacto",
-        "works-description-01":"Estas son algunas de mis principales redes sociales, donde podrás encontrar más información sobre mí y mi trabajo.",
-        "works-description-02":"Siempre estoy abierto a nuevas oportunidades y desafíos.",
+        "works-sub-title":"Si desea saber más sobre mi perfil profesional, pongámonos en contacto usando los siguientes espacios web.",
         "linkedin":"Descubre más sobre mí en LinkedIn",
         "github":"Encuentra mis proyectos en GitHub",
         "whatsapp":"Hablemos sobre tu proyecto por WhatsApp"
@@ -75,8 +73,8 @@
 
     "contact":{
         "contact-title":"CONTACTO",
-        "contact-sub-title":"Siempre estoy abierto a nuevas oportunidades",
-        "contact-description":"Hablemos de tu proyecto y transformemos tu idea en un negocio real.",
+        "contact-sub-title":"Siempre estoy atento a nuevas oportunidades",
+        "contact-description":"Hablemos de su proyecto y transformemos las ideas en un negocio real.",
         "form-name":"Ingresa tu nombre",
         "form-email":"Ingresa tu correo",
         "form-message":"Cuéntame sobre tu proyecto",
