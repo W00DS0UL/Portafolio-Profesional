@@ -197,6 +197,10 @@ nav{
     .card-cut{
         width: auto;
     }
+
+    .card-height{
+        height: 720px;
+    }
 }
 
 @media (max-width: 768px) {

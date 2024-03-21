@@ -9,17 +9,9 @@ const changeLanguage = async () => {
     let requestJson;
 
     if (switchValue) {
-        requestJson = await fetch(`./languages/es.json`, {
-            headers: {
-                "Access-Control-Allow-Origin": "*"
-            }
-        });
+        requestJson = await fetch(`./languages/es.json`);
     } else {
-        requestJson = await fetch(`./languages/en.json`, {
-            headers: {
-                "Access-Control-Allow-Origin": "*"
-            }
-        });
+        requestJson = await fetch(`./languages/en.json`);
     }
 
     const texts = await requestJson.json();
