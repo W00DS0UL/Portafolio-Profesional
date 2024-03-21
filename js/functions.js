@@ -1,4 +1,3 @@
-
 /**
  * The function `changeLanguage` asynchronously fetches language JSON files based on a switch value and
  * updates text content on the webpage accordingly.
