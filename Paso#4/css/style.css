@@ -112,7 +112,7 @@ textarea:focus{
 }
 
 .card-height{
-    height: 680px;
+    height: 780px;
 }
 
 .vh-custom{
@@ -198,9 +198,9 @@ nav{
         width: auto;
     }
 
-    .card-height{
+    /* .card-height{
         height: 720px;
-    }
+    } */
 }
 
 @media (max-width: 768px) {
