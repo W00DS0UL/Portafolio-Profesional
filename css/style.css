@@ -112,7 +112,7 @@ textarea:focus{
 }
 
 .card-height{
-    height: 780px;
+    height: auto;
 }
 
 .vh-custom{
